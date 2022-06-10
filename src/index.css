@@ -15,17 +15,17 @@ h2 {
 h3 {
   font-size: 1rem;
 }
-a{
+a {
   text-decoration: none;
 }
-.row{
+.row {
   display: flex;
   justify-content: space-between;
 }
-.col-1{
+.col-1 {
   flex: 1;
 }
-.col-2{
+.col-2 {
   flex: 2;
 }
 .block {
@@ -34,6 +34,9 @@ a{
   margin: 0.5rem;
   border-radius: 0.5rem;
 }
-.row.center{
+.row.center {
   align-items: center;
+}
+img.small {
+  max-height: 8rem;
 }
