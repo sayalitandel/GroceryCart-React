@@ -8,6 +8,7 @@ h3 {
 }
 h1 {
   font-size: 1.5rem;
+  color: purple;
 }
 h2 {
   font-size: 1.2rem;
@@ -20,6 +21,7 @@ a {
 }
 .row {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .col-1 {
@@ -29,7 +31,7 @@ a {
   flex: 2;
 }
 .block {
-  background-color: #e0e0e0;
+  background-color: #dfdfde;
   padding: 1rem;
   margin: 0.5rem;
   border-radius: 0.5rem;
@@ -46,7 +48,7 @@ button {
   margin: 0.1rem;
   border-radius: 0.5rem;
   border: 0.1rem #404040 solid;
-  background-color: #f0c040;
+  background-color: #3fc1c9;
   width: 100%;
   cursor: pointer;
 }
@@ -67,3 +69,9 @@ button.badge {
 .text-right {
   text-align: right;
 }
+.theme {
+  color: #fc5185;
+}
+/* .logo {
+  background-image: url(./image-logo.png);
+} */
